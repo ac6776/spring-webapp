@@ -7,6 +7,8 @@ public class TestBean {
         this.name = name;
     }
 
+    public TestBean(){}
+
     public void setName(String name){
         this.name = name;
     }

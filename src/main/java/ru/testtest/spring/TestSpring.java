@@ -10,6 +10,8 @@ public class TestSpring {
 
         TestBean testBean = context.getBean("testBean", TestBean.class);
 
+        testBean.setName("Oleg");
+
         System.out.println(testBean.getName());
 
         context.close();

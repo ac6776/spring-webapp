@@ -9,7 +9,7 @@
 
     <bean id="testBean"
           class="ru.testtest.spring.TestBean">
-        <constructor-arg value="Alex"/>
+<!--        <constructor-arg value="Alex"/>-->
     </bean>
 
 </beans>
